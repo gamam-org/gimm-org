@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>منظمة قمم للسلام والتنمية</title>
+<meta name="description" content="منظمة قمم للسلام والتنمية، جنوب كردفان. تنشر ثقافة السلام عبر التراث الشعبي وتعمل في التوعية والتنمية المجتمعية.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Reem+Kufi:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>:root{--ink:#221b18;--blue:#9b3f35;--green:#5f7d34;--gold:#c8912a;--paper:#f5f4f2;--white:#fff;--line:#ddd6d2}
+:root{--ink:#221b18;--blue:#9b3f35;--green:#4f7f2c;--gold:#c8912a;--paper:#f5f4f2;--white:#fff;--line:#ddd6d2}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:'Tajawal',Tahoma,Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.9;font-size:18px}
+a{color:var(--blue)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:'Reem Kufi','Tajawal',sans-serif;line-height:1.4}
+nav{background:var(--ink);position:sticky;top:0;z-index:5}
+nav .wrap{display:flex;gap:6px 22px;flex-wrap:wrap;align-items:center;padding-block:10px}
+nav strong{color:#fff;font-family:'Reem Kufi','Tajawal',sans-serif;font-size:19px;margin-inline-end:auto}
+nav strong{display:flex;align-items:center;gap:10px}
+nav strong img{border-radius:50%;background:#fff}
+nav a{color:#e6dad5;text-decoration:none;font-size:16px}
+nav a:hover{color:#fff}
+footer{margin-top:56px;background:var(--ink);color:#e6dad5;padding:30px 0;font-size:16px}
+footer a{color:#fff}
+@media (max-width:560px){body{font-size:17px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+#p-home .hero{position:relative;color:#fff;background:linear-gradient(rgba(34,27,24,.82),rgba(34,27,24,.9)),none center/cover;padding:84px 0 72px}
+#p-home .hero h1{font-size:clamp(34px,6.5vw,64px);max-width:16ch}
+#p-home .hero p{max-width:56ch;margin-top:18px;color:#e8dfda;font-size:20px}
+#p-home .hero small{display:block;margin-top:26px;color:#bfaea6;font-size:15px}
+#p-home .btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+#p-home .btn{display:inline-block;padding:10px 24px;border-radius:4px;background:var(--gold);color:#1b1305;font-weight:700;text-decoration:none}
+#p-home .btn.alt{background:transparent;border:2px solid #e6dad5;color:#fff}
+#p-home section{padding:56px 0 8px}
+#p-home h2{font-size:30px;margin-bottom:14px}
+#p-home .lead{max-width:62ch}
+#p-home .vm{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px;margin-top:20px}
+#p-home .vm div{background:var(--white);border-top:5px solid var(--blue);padding:22px 24px}
+#p-home .vm div:nth-child(2){border-top-color:var(--green)}
+#p-home .vm h3{font-size:22px;margin-bottom:8px}
+#p-home .vm ul{padding-inline-start:20px}
+#p-home .vm li+li{margin-top:6px}
+#p-home .values{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0;margin-top:16px}
+#p-home .values li{background:#e8eed9;color:#2f5217;padding:4px 18px;border-radius:999px}
+#p-home .goals{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px;margin-top:20px}
+#p-home .goal{background:var(--white);border:1px solid var(--line);padding:18px 22px}
+#p-home .goal h3{font-size:20px;color:var(--blue);margin-bottom:6px}
+#p-home .goal ul{padding-inline-start:20px;font-size:17px}
+#p-home .band{background:var(--white);border-block:1px solid var(--line);margin-top:56px;padding:40px 0}
+#p-home .band .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:28px}
+#p-home .band h3{font-size:22px;margin-bottom:6px}
+#p-home .band .skills{font-size:15px;color:#5b524d;margin-top:8px}
+#p-home .feature{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;align-items:center;background:var(--ink);color:#fff;padding:28px;margin-top:20px}
+#p-home .feature video{width:100%;aspect-ratio:16/9;background:#000;object-fit:cover}
+#p-home .feature h3{font-size:26px;margin-bottom:8px}
+#p-home .feature p{color:#e2d9d4}
+#p-home .feature .stat{font-family:'Reem Kufi','Tajawal',sans-serif;font-size:44px;color:var(--gold);line-height:1.2}
+@media (max-width:560px){#p-home .hero{padding:56px 0 48px}}
+#p-projects header.page{background:var(--ink);color:#fff;padding:44px 0 36px}
+#p-projects header.page h1{font-size:clamp(30px,5vw,46px)}
+#p-projects header.page p{color:#e2d9d4;max-width:56ch;margin-top:8px}
+#p-projects section{padding:40px 0 4px}
+#p-projects h2{font-size:28px;margin-bottom:6px}
+#p-projects .sub{color:#5b524d;font-size:16px;margin-bottom:16px}
+#p-projects .card{background:var(--white);border:1px solid var(--line);border-inline-start:6px solid var(--blue);padding:22px 24px;margin-top:18px}
+#p-projects .card.green{border-inline-start-color:var(--green)}
+#p-projects .card h3{font-size:23px;margin-bottom:6px}
+#p-projects .meta{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:10px 0}
+#p-projects .meta li{background:#f3e6e2;color:#7a2f27;padding:2px 14px;border-radius:999px;font-size:15px}
+#p-projects .btn{display:inline-block;margin-top:10px;padding:8px 22px;border-radius:4px;background:var(--gold);color:#1b1305;font-weight:700;text-decoration:none}
+#p-projects details{border-top:1px solid var(--line);margin-top:10px;padding-top:6px}
+#p-projects summary{cursor:pointer;font-weight:700;padding:6px 0;color:var(--blue)}
+#p-projects details ul,#p-projects details ol{padding-inline-start:22px;margin:4px 0 8px;font-size:17px}
+#p-projects details li+li{margin-top:4px}
+#p-projects .soon{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:14px}
+#p-projects .soon div{background:var(--white);border:1px dashed #b9aaa3;padding:18px 22px}
+#p-projects .soon h3{font-size:21px}
+#p-forum header.page{background:var(--ink);color:#fff;padding:44px 0 36px}
+#p-forum header.page h1{font-size:clamp(30px,5vw,46px)}
+#p-forum header.page p{color:#e2d9d4;max-width:56ch;margin-top:8px}
+#p-forum section{padding:40px 0 4px}
+#p-forum h2{font-size:28px;margin-bottom:6px}
+#p-forum .sub{color:#5b524d;font-size:16px;margin-bottom:16px}
+#p-forum .card{background:var(--white);border:1px solid var(--line);border-inline-start:6px solid var(--blue);padding:22px 24px;margin-top:18px}
+#p-forum .card.green{border-inline-start-color:var(--green)}
+#p-forum .card h3{font-size:23px;margin-bottom:6px}
+#p-forum .meta{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:10px 0}
+#p-forum .meta li{background:#f3e6e2;color:#7a2f27;padding:2px 14px;border-radius:999px;font-size:15px}
+#p-forum .btn{display:inline-block;margin-top:10px;padding:8px 22px;border-radius:4px;background:var(--gold);color:#1b1305;font-weight:700;text-decoration:none}
+#p-forum details{border-top:1px solid var(--line);margin-top:10px;padding-top:6px}
+#p-forum summary{cursor:pointer;font-weight:700;padding:6px 0;color:var(--blue)}
+#p-forum details ul,#p-forum details ol{padding-inline-start:22px;margin:4px 0 8px;font-size:17px}
+#p-forum details li+li{margin-top:4px}
+#p-forum .soon{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:14px}
+#p-forum .soon div{background:var(--white);border:1px dashed #b9aaa3;padding:18px 22px}
+#p-forum .soon h3{font-size:21px}
+#p-idcard /* hero */
+.hero{background:var(--ink);color:#fff;padding:0 0 40px}
+#p-idcard .hero .top{padding:14px 0;font-size:15px}
+#p-idcard .hero .top a{color:#e6dad5;text-decoration:none}
+#p-idcard .hero video{width:100%;display:block;background:#000;aspect-ratio:16/9;max-height:70vh;object-fit:cover}
+#p-idcard .hero h1{font-family:'Reem Kufi','Tajawal',sans-serif;font-size:clamp(28px,5vw,48px);line-height:1.4;margin:28px 0 8px}
+#p-idcard .hero p{max-width:60ch;color:#e2d9d4}
+#p-idcard /* facts */
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0;margin-top:-1px;background:var(--white);border-bottom:1px solid var(--line)}
+#p-idcard .fact{padding:22px 20px;border-inline-start:1px solid var(--line)}
+#p-idcard .fact:first-child{border-inline-start:0}
+#p-idcard .fact b{display:block;font-size:34px;line-height:1.2;color:var(--blue);font-family:'Reem Kufi','Tajawal',sans-serif}
+#p-idcard .fact span{font-size:15px;color:#5b524d}
+#p-idcard section{padding:48px 0 12px}
+#p-idcard h2{font-family:'Reem Kufi','Tajawal',sans-serif;font-size:28px;margin-bottom:14px;color:var(--ink)}
+#p-idcard .lead{max-width:62ch}
+#p-idcard /* videos */
+.vids{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px;margin-top:22px}
+#p-idcard .vid{background:var(--white);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+#p-idcard .vid video{width:100%;display:block;aspect-ratio:16/9;background:#000;object-fit:cover}
+#p-idcard .vid h3{font-size:18px;padding:12px 16px 2px}
+#p-idcard .vid p{font-size:15px;color:#5b524d;padding:0 16px 14px}
+#p-idcard /* testimony */
+blockquote{background:var(--white);border-inline-start:6px solid var(--gold);padding:22px 24px;margin-top:18px;max-width:70ch}
+#p-idcard blockquote p+p{margin-top:12px}
+#p-idcard blockquote footer{margin-top:14px;font-weight:700;color:var(--blue)}
+#p-idcard .asks{margin-top:18px;display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0}
+#p-idcard .asks li{background:#e8eed9;color:#2f5217;border-radius:999px;padding:4px 16px;font-size:16px}
+#p-idcard /* next */
+.places{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;list-style:none;padding:0;margin-top:16px}
+#p-idcard .places li{background:var(--white);border:1px solid var(--line);padding:8px 14px;border-radius:4px;text-align:center}
+#p-idcard .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:18px}
+#p-idcard .gallery figure{background:var(--white);border:1px solid var(--line)}
+#p-idcard .gallery img{width:100%;display:block;aspect-ratio:4/3;object-fit:cover}
+#p-idcard .gallery figcaption{font-size:15px;color:#5b524d;padding:8px 12px}
+@media (max-width:560px){#p-idcard .fact{border-inline-start:0;border-bottom:1px solid var(--line)}}
+
+.strip{padding:44px 0 4px}.sgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:14px}
+.sgrid img{width:100%;display:block;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line)}
+#p-projects .btn,#p-idcard .btn{margin-top:10px}
+.page[hidden]{display:none}
+.langbtn{background:transparent;border:1.5px solid #e6dad5;color:#fff;border-radius:999px;padding:3px 16px;font:inherit;font-size:15px;line-height:1.7;cursor:pointer}
+.langbtn:hover{background:#fff;color:var(--ink)}
+html[lang=en] body{font-family:'Inter','Tajawal',Tahoma,Arial,sans-serif;line-height:1.7}
+html[lang=en] h1,html[lang=en] h2,html[lang=en] h3,html[lang=en] nav strong,html[lang=en] .stat,html[lang=en] .fact b{font-family:'Inter','Tajawal',sans-serif!important;font-weight:700;letter-spacing:-.01em}
+html[lang=en] #p-home .hero h1{max-width:18ch}
+html[lang=en] #p-idcard .fact b{font-size:27px}
+html[lang=en] nav strong{font-size:17px}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+<strong><img data-i="images/logo-128.png" alt="شعار منظمة قمم" width="44" height="44">قمم للسلام والتنمية</strong>
+<a href="#/">الرئيسية</a><a href="#about">من نحن</a><a href="#goals">أهدافنا</a><a href="#network">شراكاتنا</a><a href="#/projects">مشاريعنا</a><a href="#contact">تواصل</a>
+<button type="button" class="langbtn" id="langbtn">English</button>
+</div></nav>
+<div class="page" id="p-home" hidden>
+<header class="hero">
+  <div class="wrap">
+    <h1>مجتمع متماسك يتسع للجميع</h1>
+    <p>منظمة قمم للسلام والتنمية، منظمة محلية في جنوب كردفان تنشر ثقافة السلام عبر التراث الشعبي، وتعمل مع المجتمع في التوعية والتنمية.</p>
+    <div class="btns">
+      <a class="btn" href="#/id-card">شاهد مشروع الرقم الوطني</a>
+      <a class="btn alt" href="#about">تعرف على المنظمة</a>
+    </div>
+    <small>تأسست في أكتوبر 2021 · Gimam Organization for Peace and Development</small>
+  </div>
+</header>
+
+<main>
+<section class="strip"><div class="wrap"><h2>من الميدان</h2><div class="sgrid">
+<a href="#/id-card"><img data-i="images/id-card-11.jpg" alt="لافتة معسكر استخراج الرقم الوطني" loading="lazy"></a>
+<a href="#/id-card"><img data-i="images/id-card-03.jpg" alt="تسجيل بصمة مواطن في المعسكر" loading="lazy"></a>
+<a href="#/id-card"><img data-i="images/id-card-08.jpg" alt="فريق التسجيل على طاولة المعسكر" loading="lazy"></a>
+</div></div></section>
+  <section id="about">
+    <div class="wrap">
+      <h2>من نحن</h2>
+      <p class="lead">منظمة تطوعية أهلية تأسست في أكتوبر 2021. نؤمن أن التراث الشعبي يمكن أن يجمع الناس، فنعمل على تنقيته وتوجيهه نحو السلام الاجتماعي، ونؤهل القوى الفاعلة في المجتمع لبناء السلام والتنمية.</p>
+
+      <div class="vm">
+        <div>
+          <h3>رؤيتنا</h3>
+          <ul>
+            <li>مجتمع متماسك، نامٍ بتراثه وعاداته، يتسع للجميع.</li>
+            <li>مجتمع متجانس ومتطور، يحافظ على تراثه وعاداته وتقاليده وقيمه وتنوعه.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>رسالتنا</h3>
+          <ul>
+            <li>نشر ثقافة السلام عبر التراث الشعبي، بتنقيته وتوجيهه نحو السلام الاجتماعي، وتدريب الحكامات والمغنين وتأهيلهم.</li>
+            <li>تسجيل أصول التراث والسعي لحفظ الملكية الفكرية لأصحابها الحقيقيين.</li>
+            <li>تأهيل المرأة والشباب والإدارات الأهلية لتنفيذ برامج بناء السلام.</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 style="margin-top:28px;font-size:22px">قيمنا</h3>
+      <ul class="values">
+        <li>الحرية</li><li>المشاركة</li><li>الشفافية</li><li>الإخلاص في العمل</li><li>الصدق</li><li>العدالة</li><li>السلام</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="goals">
+    <div class="wrap">
+      <h2>أهدافنا</h2>
+      <div class="goals">
+        <div class="goal"><h3>السلام والتراث</h3><ul>
+          <li>تدريب الحكامات ومغني التراث على استخدام التراث في التعايش والتعاون والمصالحة، بعيداً عن خطاب الكراهية والعنف.</li>
+          <li>تسجيل أصول التراث المحلي للإثنيات وحفظ ملكيته الفكرية.</li></ul></div>
+        <div class="goal"><h3>المصالحة والحكم الراشد</h3><ul>
+          <li>برامج المصالحات وفض النزاعات.</li>
+          <li>تطوير آليات الإدارة الأهلية في فض النزاعات.</li>
+          <li>التثقيف المدني والمشاركة الديمقراطية.</li></ul></div>
+        <div class="goal"><h3>المرأة والشباب</h3><ul>
+          <li>إنشاء مراكز تنمية المرأة وتمكين المرأة والشباب اقتصادياً.</li>
+          <li>برامج حماية المرأة والطفل.</li>
+          <li>محاربة العادات الضارة.</li></ul></div>
+        <div class="goal"><h3>التعليم والتوعية</h3><ul>
+          <li>برامج محو الأمية ونشر التعليم.</li>
+          <li>توعية المجتمع بأهمية التعليم، وخاصة تعليم البنت.</li>
+          <li>بناء قاعدة من المتطوعين.</li></ul></div>
+        <div class="goal"><h3>الصحة والبيئة</h3><ul>
+          <li>محاربة الأمراض المنقولة جنسياً.</li>
+          <li>تدريب وتأهيل الكوادر الصحية مع الجهات المتخصصة.</li>
+          <li>المساهمة في إصحاح البيئة وتوفير المياه الصالحة للإنسان والحيوان.</li></ul></div>
+        <div class="goal"><h3>الزراعة والرعي</h3><ul>
+          <li>تدريب المزارعين والرعاة وتطوير مهنتي الرعي والزراعة.</li>
+          <li>رفع الوعي بأهمية فلاحة الأرض دعماً للأمن الغذائي المستدام.</li>
+          <li>السياحة والحياة عبر المحميات.</li>
+          <li>توفير المدخلات الزراعية.</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="band" id="network">
+    <div class="wrap">
+      <h2>شراكاتنا</h2>
+      <div class="cols">
+        <div>
+          <h3>شبكة (We Grow Together)</h3>
+          <p>المنظمة عضو في هذه الشبكة، وقد تدرب أعضاؤها على يد منظمة (البحث عن القواسم المشتركة) Search For Common Ground.</p>
+          <p class="skills">شمل التدريب: بناء السلام، وحل النزاعات، والمصالحة، والقيادة، والمناصرة، وإدارة البرامج، والمتابعة والتقييم، ونظرية التغيير، والمشاركة المدنية، وتحليل المشكلات وحلها.</p>
+        </div>
+        <div>
+          <h3>جمعية حكامات السلام بكادقلي</h3>
+          <p>نعمل بالتنسيق والتعاون مع هذه الجمعية النسوية المسجلة. والحكامة هي المرأة الشاعرة المغنية في مجال التراث الشعبي. تضم الجمعية في عضويتها كل إثنيات المنطقة بلغاتها المختلفة، وتدعو إلى السلام ونبذ الحرب والاقتتال وخطاب الكراهية.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="projects">
+    <div class="wrap">
+      <h2>مشاريعنا</h2>
+      <p class="lead">منتدى العون القانوني وبناء السلام، ومشروع استخراج الرقم الوطني. ومشروعان قادمان: منتدى الإصحاح البيئي، وحماية المرأة.</p>
+      <p style="margin-top:12px"><a href="#/projects"><b>كل المشاريع ←</b></a> · <a href="#/forum"><b>منتدى العون القانوني ←</b></a></p>
+      <div class="feature">
+        <video controls playsinline preload="none"  data-poster="videos/01-banner-camp.jpg" data-v="videos/01-banner-camp.mp4"></video>
+        <div>
+          <div class="stat">304</div>
+          <h3>رقماً وطنياً لأهالي الحجير الأبيض</h3>
+          <p>بالشراكة مع السجل المدني بولاية جنوب كردفان، في محلية الريف الشرقي في سبتمبر 2021.</p>
+          <div class="btns"><a class="btn" href="#/id-card">تفاصيل المشروع</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+</div>
+<div class="page" id="p-projects" hidden>
+<header class="page">
+  <div class="wrap">
+    <h1>مشاريعنا</h1>
+    <p>ما نفذته المنظمة مع المجتمع في جنوب كردفان، وما يأتي بعده.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2>مشاريع منفذة</h2>
+
+    <article class="card green">
+      <h3>مشروع استخراج الرقم الوطني</h3>
+      <ul class="meta"><li>سبتمبر 2021</li><li>الحجير الأبيض، الكويك</li><li>304 أرقام وطنية</li></ul>
+      <p>بالشراكة مع قسم السجل المدني بولاية جنوب كردفان وبالعون الذاتي، استُخرج الرقم الوطني لأهالي قرية الحجير الأبيض بمحلية الريف الشرقي، تمهيداً لبرامج التنمية وإثباتاً للشخصية. وتشمل مهمتنا الدعوة والإشراف والمتابعة والتوعية بأهمية الرقم المدني.</p>
+      <a class="btn" href="#/id-card">الصور والفيديوهات وكلمة العمدة</a>
+    </article>
+
+    <article class="card">
+      <h3>منتدى العون القانوني وبناء السلام</h3>
+      <ul class="meta"><li>سبتمبر 2021</li><li>جلسة حوار داخل قاعة</li></ul>
+      <p>منتدى تفاكري ناقش أثر التعدين، وأهمية الرقم الوطني، وبيئة السجون وحقوق الإنسان، والتراث الشعبي وأثره الاجتماعي، وخرج بتوصيات للمجتمع وللجهات الرسمية.</p>
+      <a class="btn" href="#/forum">التوصيات والتفاصيل</a>
+    </article>
+  </section>
+
+  <section>
+    <h2>قادمة قريباً</h2>
+    <div class="soon">
+      <div><h3>منتدى الإصحاح البيئي</h3><p>منتدى للتوعية بإصحاح البيئة.</p></div>
+      <div><h3>حماية المرأة</h3><p>برنامج لمناهضة الختان الفرعوني وآثاره الاجتماعية والصحية والنفسية.</p></div>
+      <div><h3>الرقم الوطني في محليات أخرى</h3><p>نكرر المعسكر في: كادقلي، القوز، الدبيبات، هبيلة، رشاد، أبوجبيهة، دلامي، العباسية، الليري، الدلنج، تلودي، قدير.</p></div>
+    </div>
+  </section>
+</main>
+</div>
+<div class="page" id="p-forum" hidden>
+<header class="page">
+  <div class="wrap">
+    <h1>منتدى العون القانوني وبناء السلام</h1>
+    <p>جلسة حوار داخل قاعة، سبتمبر 2021.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <p style="max-width:62ch">منتدى تفاكري ناقش أربعة موضوعات: أثر التعدين التقليدي والحديث على البيئة والاقتصاد والصحة والمجتمع، وأهمية الرقم الوطني للمواطن، وبيئة السجون وحقوق الإنسان، والتراث الشعبي وأثره الاجتماعي.</p>
+    <p style="margin-top:8px"><b>ميسّر المنتدى:</b> الدكتور مرتضى حسن، رحمه الله وطيّب ثراه.</p>
+    <article class="card" style="margin-top:22px">
+      <details open>
+        <summary>أثر التعدين في البيئة والمجتمع</summary>
+        <ul>
+          <li><b>البيئة:</b> تلوث الهواء والماء، وانعدام الغطاء النباتي.</li>
+          <li><b>الاقتصاد:</b> تحول المنتجين من الزراعة والرعي إلى التعدين، فتدهور الإنتاج الزراعي والأمن الغذائي.</li>
+          <li><b>الصحة:</b> انتشار الأمراض بسبب الازدحام، ومنها السرطانات والأمراض الجلدية وأمراض التنفس والأمراض المنقولة جنسياً.</li>
+          <li><b>المجتمع:</b> التشرد والتفكك الأسري، وتسرب الأطفال من التعليم، وانتشار المخدرات.</li>
+        </ul>
+      </details>
+      <details open>
+        <summary>توصيات المنتدى بشأن التعدين</summary>
+        <ol>
+          <li>مشاريع إنتاجية وخدمية في الصحة والتعليم والزراعة للحد من الفقر والأمية.</li>
+          <li>إلزام الشركات بالتوعية البيئية وبحماية البيئة.</li>
+          <li>توفير فرص عمل للسكان المحليين.</li>
+          <li>بناء قدرات المجتمع.</li>
+          <li>مراجعة قانون الاستثمار في مجال التعدين.</li>
+          <li>تشجيع الزراعة بالتقنيات الحديثة.</li>
+        </ol>
+      </details>
+      <details open>
+        <summary>توصيات الحكامات للسلام</summary>
+        <ol>
+          <li>إرشاد كل السودان لبناء السلام.</li>
+          <li>توصية الشباب بالسلام وإقامة مشاريع داعمة له.</li>
+          <li>القضاء على العادات الضارة: العنف وزواج القاصرات والختان.</li>
+          <li>أن يوعّي شيوخ القبائل والإدارات الأهلية الشباب بدور السلام وأهميته.</li>
+          <li>دور المنظمات في دعم السلام.</li>
+          <li>عدم التساهل مع المجرمين وتسليمهم إلى القانون.</li>
+          <li>دعم قضايا المرأة بمشاريع مدرّة للدخل.</li>
+        </ol>
+      </details>
+      <details open>
+        <summary>العون القانوني ودوره في بناء السلام</summary>
+        <ol>
+          <li>تبسيط الإجراءات القانونية للمواطنين في جنوب كردفان، وخاصة الرقم الوطني والبطاقة والجنسية والجواز وشهادة الميلاد، نظراً لظروف الحرب.</li>
+          <li>الوصول إلى أماكن المواطنين لاستخراج الرقم بإجراءات بسيطة بواسطة العمد والمشايخ.</li>
+          <li>دعم كل من يسهم في بناء السلام.</li>
+          <li>مساعدة المواطن في الوصول إلى مراكز استخراج الأوراق الرسمية.</li>
+          <li>مساعدة النازحين والعائدين من مناطق الحرب.</li>
+          <li>دعم الجهات الرسمية العاملة في العون القانوني، بتدريب الكوادر وتوفير العربات.</li>
+          <li>دمج المواليد مجهولي الهوية والاستفادة منهم.</li>
+        </ol>
+      </details>
+      <details open>
+        <summary>توصيات مدير السجن</summary>
+        <ol>
+          <li>توعية المواطنين بالمفهوم العام للسجون.</li>
+          <li>تأهيل السجون: المباني والإنارة والوجبات.</li>
+          <li>نقص القضاة المؤهلين وذوي الخبرة لتنفيذ الحكم أو النطق به.</li>
+          <li>تأهيل الحراسات.</li>
+          <li>تأخر القضاة في الحكم وفي الفصل في القضايا، فيبقى المتهمون في السجن مدة طويلة.</li>
+          <li>تدريب الإدارات الأهلية لتؤدي دوراً واضحاً في تحقيق العدالة.</li>
+          <li>تكثيف الإعلام القانوني وتثقيف المواطنين.</li>
+        </ol>
+      </details>
+    </article>
+    <p style="margin-top:22px"><a href="#/projects">← كل المشاريع</a></p>
+  </section>
+</main>
+</div>
+<div class="page" id="p-idcard" hidden>
+<header class="hero">
+  
+  <video controls playsinline preload="none" data-poster="videos/01-banner-camp.jpg" data-v="videos/01-banner-camp.mp4"></video>
+  <div class="wrap">
+    <h1>مشروع استخراج الرقم الوطني</h1>
+    <p>بالشراكة مع قسم السجل المدني بولاية جنوب كردفان، ساعدنا أهالي قرية الحجير الأبيض على الحصول على أوراقهم الثبوتية.</p>
+  </div>
+</header>
+
+<div class="facts">
+  <div class="fact"><b>304</b><span>رقم وطني استُخرج في المعسكر</span></div>
+  <div class="fact"><b>سبتمبر 2021</b><span>تاريخ المعسكر</span></div>
+  <div class="fact"><b>الحجير الأبيض</b><span>الكويك، محلية الريف الشرقي</span></div>
+  <div class="fact"><b>العون الذاتي</b><span>بتمويل مشترك من المنظمة والمستفيدين</span></div>
+</div>
+
+<main class="wrap">
+  <section>
+    <h2>عن المشروع</h2>
+    <p class="lead">تعاونت منظمة قمم للسلام والتنمية مع السجل المدني لتنظيم معسكر لاستخراج الرقم الوطني في قرية الحجير الأبيض. كان معظم أهالي المنطقة بلا أوراق ثبوتية، والرقم الوطني ضروري لإثبات الشخصية وللاستفادة من برامج التنمية. وتشمل مهمة المنظمة الدعوة والإشراف والمتابعة والتوعية بأهمية الرقم المدني، والإشراف على معسكرات الاستخراج في محلية الريف الشرقي التي يقارب سكانها 20 ألف نسمة من النازحين والرحل والمستوطنين.</p>
+    <p class="lead" style="margin-top:12px">شارك أفراد المجتمع بمختلف فئاتهم في معسكر استخراج الرقم الوطني بقرية الحجير الأبيض، بدعم من القيادات المحلية، وحرص الجميع على استخراج بطاقاتهم الشخصية.</p>
+  </section>
+
+  <section>
+    <h2>من المعسكر</h2>
+    <div class="vids">
+      <article class="vid">
+        <video controls playsinline preload="none"  data-poster="videos/01-banner-camp.jpg" data-v="videos/01-banner-camp.mp4"></video>
+        <h3>لافتة المعسكر</h3>
+        <p>معسكر استخراج الرقم الوطني بالتعاون مع شرطة جنوب كردفان وقسم السجل المدني.</p>
+      </article>
+      <article class="vid">
+        <video controls playsinline preload="none"  data-poster="videos/02-registration.jpg" data-v="videos/02-registration.mp4"></video>
+        <h3>تسجيل المواطنين</h3>
+        <p>موظفو السجل المدني يسجلون بيانات الأهالي في موقع المعسكر.</p>
+      </article>
+      <article class="vid">
+        <video controls playsinline preload="none"  data-poster="videos/03-opening-speech-1.jpg" data-v="videos/03-opening-speech-1.mp4"></video>
+        <h3>كلمة ممثل المنظمة في الجلسة الافتتاحية</h3>
+        <p>السيد الدودو يعقوب النور، ممثل منظمة قمم للسلام والتنمية. الصوت غير واضح، وملخص الكلمة أدناه.</p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2>صور من المعسكر</h2>
+    <div class="gallery">
+      <figure><img data-i="images/id-card-11.jpg" alt="لافتة معسكر استخراج الرقم الوطني بقرية الحجير الأبيض، سبتمبر 2021، وموظفان يسجلان بجانبها" loading="lazy"><figcaption>لافتة المعسكر: قرية الحجير الأبيض، سبتمبر 2021</figcaption></figure>
+      <figure><img data-i="images/id-card-01.jpg" alt="العمدة بعمامة وجلباب أبيضين أمام لافتة معسكر استخراج الرقم الوطني" loading="lazy"><figcaption>العمدة أمام لافتة المعسكر</figcaption></figure>
+      <figure><img data-i="images/id-card-02.jpg" alt="موظف السجل المدني يأخذ بصمة مواطنة على جهاز البصمات" loading="lazy"><figcaption>أخذ بصمات المواطنين أثناء التسجيل</figcaption></figure>
+      <figure><img data-i="images/id-card-03.jpg" alt="مواطن يضع يده على جهاز البصمات أمام حاسوب محمول" loading="lazy"><figcaption>التسجيل بالبصمة الإلكترونية في العراء</figcaption></figure>
+      <figure><img data-i="images/id-card-04.jpg" alt="رجل يقف بجانب سيارة مفتوحة الغطاء وسط الأشجار" loading="lazy"><figcaption>من أجواء المنطقة</figcaption></figure>
+      <figure><img data-i="images/id-card-06.jpg" alt="أهالي القرية حول طاولة التسجيل وبأيديهم أوراقهم" loading="lazy"><figcaption>الأهالي حول طاولة التسجيل بأوراقهم</figcaption></figure>
+      <figure><img data-i="images/id-card-07.jpg" alt="موظف يكتب في استمارة على طاولة والأهالي والأطفال واقفون حوله" loading="lazy"><figcaption>تدوين بيانات المواطنين في الاستمارات</figcaption></figure>
+      <figure><img data-i="images/id-card-08.jpg" alt="رجلان يجهزان الاستمارات والأختام على طاولة في العراء" loading="lazy"><figcaption>فريق التسجيل يجهز الاستمارات والأختام</figcaption></figure>
+      <figure><img data-i="images/id-card-09.jpg" alt="أهالي يتسلمون أوراقهم أمام لافتة معسكر استخراج الرقم الوطني" loading="lazy"><figcaption>إتمام الإجراءات أمام لافتة المعسكر</figcaption></figure>
+      <figure><img data-i="images/id-card-10.jpg" alt="الأهالي ينتظرون دورهم أمام طاولة التسجيل تحت الأشجار" loading="lazy"><figcaption>الأهالي في انتظار دورهم أمام طاولة التسجيل</figcaption></figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>ملخص كلمة ممثل المنظمة</h2>
+    <p class="lead">ألقى السيد الدودو يعقوب النور كلمة المنظمة في الجلسة الافتتاحية لمشروع استخراج البطاقة الشخصية والرقم الوطني لمواطني محلية الريف الشرقي بولاية جنوب كردفان (جبال النوبة). وهذا ملخص لها لأن الصوت في التسجيل غير واضح.</p>
+    <ol style="max-width:62ch;padding-inline-start:22px;margin-top:12px">
+      <li>شكر الحضور، وخاصة الإدارة الأهلية لإدراكها أهمية الأوراق الثبوتية واستنفارها المواطنين.</li>
+      <li>شكر مواطني القرى والأرياف على تلبية الدعوة، رجالاً ونساءً وشباباً وأطفالاً، وفي حضورهم دليل على وعيهم بأهمية البطاقة الشخصية والرقم الوطني.</li>
+      <li>عرّف بمنظمة قمم للسلام والتنمية، وبيّن أن أنشطتها الرئيسية تقديم الخدمات الأساسية للمواطن في المدن والقرى والأرياف على حد سواء.</li>
+      <li>شكر شرطة السجل المدني بالولاية على تحمل مشاق السفر، وفي ذلك دليل على اهتمامها بما يخص المواطن من أوراق ثبوتية وغيرها.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>كلمة العمدة</h2>
+    <blockquote>
+      <p>منظمة قمم للسلام والتنمية هي أول منظمة تأتي لتقدم لنا خدمة كهذه. كان معظم المواطنين في المنطقة بلا أوراق ثبوتية ولا يعرفون أهمية الرقم الوطني، وبتنوير من المنظمة عرفنا أهميتها.</p>
+      <p>الحمد لله، أهم شيء الأوراق الثبوتية انتهينا منها، وبقي موضوع قسائم الزواج، ونريد تأهيل مأذون في المنطقة.</p>
+    </blockquote>
+  </section>
+</main>
+</div>
+
+<footer id="contact">
+  <div class="wrap">
+    <h3 style="font-size:22px;color:#fff;margin-bottom:6px">تواصل معنا</h3>
+    <p>المدير: آدم بشير سليمان</p>
+    <p>هاتف: <a href="tel:0122867705" dir="ltr">0122867705</a></p>
+    <p>البريد: <a href="mailto:adamsolomon90@gmail.com">adamsolomon90@gmail.com</a></p>
+  </div>
+</footer>
+<script>
+const M={"videos/01-banner-camp.jpg": "", "videos/01-banner-camp.mp4": "", "videos/02-registration.jpg": "", "videos/02-registration.mp4": "", "videos/03-opening-speech-1.jpg": "", "videos/03-opening-speech-1.mp4": "", "images/id-card-11.jpg": "", "images/id-card-01.jpg": "", "images/id-card-02.jpg": "", "images/id-card-03.jpg": "", "images/id-card-04.jpg": "", "images/id-card-06.jpg": "", "images/id-card-07.jpg": "", "images/id-card-08.jpg": "", "images/id-card-09.jpg": "", "images/id-card-10.jpg": "", "images/logo-128.png": ""};
+function hydrate(){document.querySelectorAll('[data-i]').forEach(e=>{e.src=M[e.dataset.i]});document.querySelectorAll('video[data-v]').forEach(v=>{v.poster=M[v.dataset.poster];v.src=M[v.dataset.v];v.preload='none';v.controls=true;v.setAttribute('playsinline','')});}
+const R={'#/':'home','':'home','#/projects':'projects','#/forum':'forum','#/id-card':'idcard'};
+function show(k){document.querySelectorAll('.page').forEach(p=>p.hidden=p.id!=='p-'+k);document.querySelectorAll('video').forEach(v=>v.pause())}
+function route(){const h=location.hash;if(R[h]!==undefined){show(R[h]);window.scrollTo(0,0);return}
+const el=h.length>1?document.getElementById(h.slice(1)):null;if(el){const pg=el.closest('.page');if(pg)show(pg.id.slice(2));else show('home');setTimeout(()=>el.scrollIntoView(),0)}else{show('home')}}
+hydrate();window.addEventListener('hashchange',route);route();
+</script>
+<script>
+(function(){
+const EN={"منظمة قمم للسلام والتنمية": "Gimam Organization for Peace and Development", "منظمة قمم للسلام والتنمية، جنوب كردفان. تنشر ثقافة السلام عبر التراث الشعبي وتعمل في التوعية والتنمية المجتمعية.": "Gimam Organization for Peace and Development, South Kordofan. We promote a culture of peace through folk heritage and work on awareness and community development.", "شعار منظمة قمم": "Gimam Organization logo", "قمم للسلام والتنمية": "Gimam for Peace and Development", "الرئيسية": "Home", "من نحن": "About Us", "أهدافنا": "Our Goals", "شراكاتنا": "Our Partners", "مشاريعنا": "Our Projects", "تواصل": "Contact", "مجتمع متماسك يتسع للجميع": "A cohesive community with room for everyone", "منظمة قمم للسلام والتنمية، منظمة محلية في جنوب كردفان تنشر ثقافة السلام عبر التراث الشعبي، وتعمل مع المجتمع في التوعية والتنمية.": "Gimam Organization for Peace and Development is a local organization in South Kordofan that promotes a culture of peace through folk heritage and works with the community on awareness and development.", "شاهد مشروع الرقم الوطني": "See the National ID Number project", "تعرف على المنظمة": "Learn about the organization", "تأسست في أكتوبر 2021 · Gimam Organization for Peace and Development": "Founded in October 2021 · منظمة قمم للسلام والتنمية", "من الميدان": "From the Field", "لافتة معسكر استخراج الرقم الوطني": "Banner of the National ID Number camp", "تسجيل بصمة مواطن في المعسكر": "A citizen's fingerprint being recorded at the camp", "فريق التسجيل على طاولة المعسكر": "The registration team at the camp table", "منظمة تطوعية أهلية تأسست في أكتوبر 2021. نؤمن أن التراث الشعبي يمكن أن يجمع الناس، فنعمل على تنقيته وتوجيهه نحو السلام الاجتماعي، ونؤهل القوى الفاعلة في المجتمع لبناء السلام والتنمية.": "A voluntary community organization founded in October 2021. We believe folk heritage can bring people together, so we work to refine it and steer it toward social peace, and we equip the active forces in the community to build peace and development.", "رؤيتنا": "Our Vision", "مجتمع متماسك، نامٍ بتراثه وعاداته، يتسع للجميع.": "A cohesive community that thrives on its heritage and customs and has room for everyone.", "مجتمع متجانس ومتطور، يحافظ على تراثه وعاداته وتقاليده وقيمه وتنوعه.": "A harmonious, progressive community that preserves its heritage, customs, traditions, values and diversity.", "رسالتنا": "Our Mission", "نشر ثقافة السلام عبر التراث الشعبي، بتنقيته وتوجيهه نحو السلام الاجتماعي، وتدريب الحكامات والمغنين وتأهيلهم.": "To spread a culture of peace through folk heritage by refining it and steering it toward social peace, and to train and qualify the Hakamat (women poet-singers) and folk singers.", "تسجيل أصول التراث والسعي لحفظ الملكية الفكرية لأصحابها الحقيقيين.": "To document the origins of heritage and work to protect intellectual property rights for their rightful owners.", "تأهيل المرأة والشباب والإدارات الأهلية لتنفيذ برامج بناء السلام.": "To qualify women, youth and Native Administrations to carry out peacebuilding programmes.", "قيمنا": "Our Values", "الحرية": "Freedom", "المشاركة": "Participation", "الشفافية": "Transparency", "الإخلاص في العمل": "Dedication to work", "الصدق": "Honesty", "العدالة": "Justice", "السلام": "Peace", "السلام والتراث": "Peace and Heritage", "تدريب الحكامات ومغني التراث على استخدام التراث في التعايش والتعاون والمصالحة، بعيداً عن خطاب الكراهية والعنف.": "Training the Hakamat (women poet-singers) and heritage singers to use heritage for coexistence, cooperation and reconciliation, far from hate speech and violence.", "تسجيل أصول التراث المحلي للإثنيات وحفظ ملكيته الفكرية.": "Documenting the origins of the local heritage of the ethnic groups and protecting its intellectual property.", "المصالحة والحكم الراشد": "Reconciliation and Good Governance", "برامج المصالحات وفض النزاعات.": "Reconciliation and conflict-resolution programmes.", "تطوير آليات الإدارة الأهلية في فض النزاعات.": "Developing the mechanisms of Native Administration in resolving conflicts.", "التثقيف المدني والمشاركة الديمقراطية.": "Civic education and democratic participation.", "المرأة والشباب": "Women and Youth", "إنشاء مراكز تنمية المرأة وتمكين المرأة والشباب اقتصادياً.": "Establishing women's development centres and empowering women and youth economically.", "برامج حماية المرأة والطفل.": "Programmes to protect women and children.", "محاربة العادات الضارة.": "Combating harmful practices.", "التعليم والتوعية": "Education and Awareness", "برامج محو الأمية ونشر التعليم.": "Literacy programmes and the spread of education.", "توعية المجتمع بأهمية التعليم، وخاصة تعليم البنت.": "Raising community awareness of the importance of education, especially girls' education.", "بناء قاعدة من المتطوعين.": "Building a base of volunteers.", "الصحة والبيئة": "Health and Environment", "محاربة الأمراض المنقولة جنسياً.": "Combating sexually transmitted diseases.", "تدريب وتأهيل الكوادر الصحية مع الجهات المتخصصة.": "Training and qualifying health workers with specialised bodies.", "المساهمة في إصحاح البيئة وتوفير المياه الصالحة للإنسان والحيوان.": "Contributing to environmental sanitation and to providing safe water for people and livestock.", "الزراعة والرعي": "Agriculture and Pastoralism", "تدريب المزارعين والرعاة وتطوير مهنتي الرعي والزراعة.": "Training farmers and herders and developing the professions of herding and farming.", "رفع الوعي بأهمية فلاحة الأرض دعماً للأمن الغذائي المستدام.": "Raising awareness of the importance of cultivating the land in support of sustainable food security.", "السياحة والحياة عبر المحميات.": "Tourism and wildlife through nature reserves.", "توفير المدخلات الزراعية.": "Providing agricultural inputs.", "شبكة (We Grow Together)": "We Grow Together Network", "المنظمة عضو في هذه الشبكة، وقد تدرب أعضاؤها على يد منظمة (البحث عن القواسم المشتركة) Search For Common Ground.": "The organization is a member of this network, and its members were trained by Search For Common Ground.", "شمل التدريب: بناء السلام، وحل النزاعات، والمصالحة، والقيادة، والمناصرة، وإدارة البرامج، والمتابعة والتقييم، ونظرية التغيير، والمشاركة المدنية، وتحليل المشكلات وحلها.": "The training covered: peacebuilding, conflict resolution, reconciliation, leadership, advocacy, programme management, monitoring and evaluation, theory of change, civic engagement, and problem analysis and problem-solving.", "جمعية حكامات السلام بكادقلي": "Hakamat for Peace Association, Kadugli", "نعمل بالتنسيق والتعاون مع هذه الجمعية النسوية المسجلة. والحكامة هي المرأة الشاعرة المغنية في مجال التراث الشعبي. تضم الجمعية في عضويتها كل إثنيات المنطقة بلغاتها المختلفة، وتدعو إلى السلام ونبذ الحرب والاقتتال وخطاب الكراهية.": "We work in coordination and cooperation with this registered women's association. A Hakama is a woman poet-singer in the folk-heritage tradition. The association's membership includes all the ethnic groups of the region, with their different languages, and it calls for peace and rejects war, fighting and hate speech.", "منتدى العون القانوني وبناء السلام، ومشروع استخراج الرقم الوطني. ومشروعان قادمان: منتدى الإصحاح البيئي، وحماية المرأة.": "The Legal Aid and Peacebuilding Forum and the National ID Number project. Two projects are coming: the Environmental Sanitation Forum and Women's Protection.", "كل المشاريع ←": "All projects →", "منتدى العون القانوني ←": "Legal Aid Forum →", "رقماً وطنياً لأهالي الحجير الأبيض": "National ID numbers issued to the people of Al-Hujayr Al-Abyad", "بالشراكة مع السجل المدني بولاية جنوب كردفان، في محلية الريف الشرقي في سبتمبر 2021.": "In partnership with the Civil Registry in South Kordofan State, in Al-Reef Al-Sharqi Locality, September 2021.", "تفاصيل المشروع": "Project details", "ما نفذته المنظمة مع المجتمع في جنوب كردفان، وما يأتي بعده.": "What the organization has carried out with the community in South Kordofan, and what comes next.", "مشاريع منفذة": "Completed Projects", "مشروع استخراج الرقم الوطني": "National ID Number Project", "سبتمبر 2021": "September 2021", "الحجير الأبيض، الكويك": "Al-Hujayr Al-Abyad, Al-Kuwayk", "304 أرقام وطنية": "304 national ID numbers", "بالشراكة مع قسم السجل المدني بولاية جنوب كردفان وبالعون الذاتي، استُخرج الرقم الوطني لأهالي قرية الحجير الأبيض بمحلية الريف الشرقي، تمهيداً لبرامج التنمية وإثباتاً للشخصية. وتشمل مهمتنا الدعوة والإشراف والمتابعة والتوعية بأهمية الرقم المدني.": "In partnership with the Civil Registry Department in South Kordofan State and through self-help, national ID numbers were issued to the people of the village of Al-Hujayr Al-Abyad in Al-Reef Al-Sharqi Locality, as a step toward development programmes and as proof of identity. Our role includes advocacy, supervision, follow-up and raising awareness of the importance of the civil number.", "الصور والفيديوهات وكلمة العمدة": "Photos, videos and the Omda's speech", "منتدى العون القانوني وبناء السلام": "Legal Aid and Peacebuilding Forum", "جلسة حوار داخل قاعة": "A dialogue session held in a hall", "منتدى تفاكري ناقش أثر التعدين، وأهمية الرقم الوطني، وبيئة السجون وحقوق الإنسان، والتراث الشعبي وأثره الاجتماعي، وخرج بتوصيات للمجتمع وللجهات الرسمية.": "A deliberative forum that discussed the impact of mining, the importance of the National ID Number, prison conditions and human rights, and folk heritage and its social impact, and issued recommendations for the community and for official bodies.", "التوصيات والتفاصيل": "Recommendations and details", "قادمة قريباً": "Coming Soon", "منتدى الإصحاح البيئي": "Environmental Sanitation Forum", "منتدى للتوعية بإصحاح البيئة.": "A forum to raise awareness of environmental sanitation.", "حماية المرأة": "Women's Protection", "برنامج لمناهضة الختان الفرعوني وآثاره الاجتماعية والصحية والنفسية.": "A programme to combat Pharaonic female genital mutilation and its social, health and psychological effects.", "الرقم الوطني في محليات أخرى": "National ID Number in Other Localities", "نكرر المعسكر في: كادقلي، القوز، الدبيبات، هبيلة، رشاد، أبوجبيهة، دلامي، العباسية، الليري، الدلنج، تلودي، قدير.": "We will repeat the camp in: Kadugli, Al-Gouz, Al-Dibaibat, Habila, Rashad, Abu Jubaiha, Delami, Al-Abbasiya, Al-Liri, Dilling, Talodi, Gedir.", "جلسة حوار داخل قاعة، سبتمبر 2021.": "A dialogue session held in a hall, September 2021.", "منتدى تفاكري ناقش أربعة موضوعات: أثر التعدين التقليدي والحديث على البيئة والاقتصاد والصحة والمجتمع، وأهمية الرقم الوطني للمواطن، وبيئة السجون وحقوق الإنسان، والتراث الشعبي وأثره الاجتماعي.": "A deliberative forum that discussed four topics: the impact of traditional and modern mining on the environment, economy, health and society; the importance of the National ID Number for citizens; prison conditions and human rights; and folk heritage and its social impact.", "ميسّر المنتدى:": "Forum facilitator:", "الدكتور مرتضى حسن، رحمه الله وطيّب ثراه.": "Dr. Murtada Hassan, may God have mercy on him and make his resting place pleasant.", "أثر التعدين في البيئة والمجتمع": "The Impact of Mining on the Environment and Society", "البيئة:": "Environment:", "تلوث الهواء والماء، وانعدام الغطاء النباتي.": "Air and water pollution, and loss of vegetation cover.", "الاقتصاد:": "Economy:", "تحول المنتجين من الزراعة والرعي إلى التعدين، فتدهور الإنتاج الزراعي والأمن الغذائي.": "Producers moved from farming and herding to mining, so agricultural output and food security declined.", "الصحة:": "Health:", "انتشار الأمراض بسبب الازدحام، ومنها السرطانات والأمراض الجلدية وأمراض التنفس والأمراض المنقولة جنسياً.": "Diseases spreading because of overcrowding, including cancers, skin diseases, respiratory diseases and sexually transmitted diseases.", "المجتمع:": "Society:", "التشرد والتفكك الأسري، وتسرب الأطفال من التعليم، وانتشار المخدرات.": "Homelessness and family breakdown, children dropping out of school, and the spread of drugs.", "توصيات المنتدى بشأن التعدين": "Forum Recommendations on Mining", "مشاريع إنتاجية وخدمية في الصحة والتعليم والزراعة للحد من الفقر والأمية.": "Productive and service projects in health, education and agriculture to reduce poverty and illiteracy.", "إلزام الشركات بالتوعية البيئية وبحماية البيئة.": "Obliging companies to provide environmental awareness and to protect the environment.", "توفير فرص عمل للسكان المحليين.": "Providing job opportunities for local residents.", "بناء قدرات المجتمع.": "Building community capacity.", "مراجعة قانون الاستثمار في مجال التعدين.": "Reviewing the investment law in the field of mining.", "تشجيع الزراعة بالتقنيات الحديثة.": "Encouraging farming with modern techniques.", "توصيات الحكامات للسلام": "Hakamat's Recommendations for Peace", "إرشاد كل السودان لبناء السلام.": "Guiding all of Sudan toward building peace.", "توصية الشباب بالسلام وإقامة مشاريع داعمة له.": "Urging young people toward peace and toward establishing projects that support it.", "القضاء على العادات الضارة: العنف وزواج القاصرات والختان.": "Eliminating harmful practices: violence, child marriage and female genital mutilation.", "أن يوعّي شيوخ القبائل والإدارات الأهلية الشباب بدور السلام وأهميته.": "Tribal elders and Native Administrations should make young people aware of the role and importance of peace.", "دور المنظمات في دعم السلام.": "The role of organizations in supporting peace.", "عدم التساهل مع المجرمين وتسليمهم إلى القانون.": "No leniency toward criminals; hand them over to the law.", "دعم قضايا المرأة بمشاريع مدرّة للدخل.": "Supporting women's causes through income-generating projects.", "العون القانوني ودوره في بناء السلام": "Legal Aid and Its Role in Building Peace", "تبسيط الإجراءات القانونية للمواطنين في جنوب كردفان، وخاصة الرقم الوطني والبطاقة والجنسية والجواز وشهادة الميلاد، نظراً لظروف الحرب.": "Simplifying legal procedures for citizens in South Kordofan, especially the National ID Number, ID card, nationality, passport and birth certificate, given the conditions of war.", "الوصول إلى أماكن المواطنين لاستخراج الرقم بإجراءات بسيطة بواسطة العمد والمشايخ.": "Reaching citizens where they live to issue the number through simple procedures, with the help of Omdas and sheikhs.", "دعم كل من يسهم في بناء السلام.": "Supporting everyone who contributes to building peace.", "مساعدة المواطن في الوصول إلى مراكز استخراج الأوراق الرسمية.": "Helping citizens reach the centres that issue official documents.", "مساعدة النازحين والعائدين من مناطق الحرب.": "Helping displaced people and those returning from war zones.", "دعم الجهات الرسمية العاملة في العون القانوني، بتدريب الكوادر وتوفير العربات.": "Supporting the official bodies working in legal aid, by training staff and providing vehicles.", "دمج المواليد مجهولي الهوية والاستفادة منهم.": "Integrating children born of unknown parentage and drawing on their contribution.", "توصيات مدير السجن": "Recommendations of the Prison Director", "توعية المواطنين بالمفهوم العام للسجون.": "Raising citizens' awareness of the general concept of prisons.", "تأهيل السجون: المباني والإنارة والوجبات.": "Rehabilitating prisons: buildings, lighting and meals.", "نقص القضاة المؤهلين وذوي الخبرة لتنفيذ الحكم أو النطق به.": "A shortage of qualified, experienced judges to carry out or pronounce sentences.", "تأهيل الحراسات.": "Upgrading holding cells.", "تأخر القضاة في الحكم وفي الفصل في القضايا، فيبقى المتهمون في السجن مدة طويلة.": "Judges' delays in ruling and in deciding cases, leaving the accused in prison for a long time.", "تدريب الإدارات الأهلية لتؤدي دوراً واضحاً في تحقيق العدالة.": "Training Native Administrations to play a clear role in achieving justice.", "تكثيف الإعلام القانوني وتثقيف المواطنين.": "Intensifying legal media and educating citizens.", "← كل المشاريع": "← All projects", "بالشراكة مع قسم السجل المدني بولاية جنوب كردفان، ساعدنا أهالي قرية الحجير الأبيض على الحصول على أوراقهم الثبوتية.": "In partnership with the Civil Registry Department in South Kordofan State, we helped the people of the village of Al-Hujayr Al-Abyad obtain their identity documents.", "رقم وطني استُخرج في المعسكر": "national ID numbers issued at the camp", "تاريخ المعسكر": "Date of the camp", "الحجير الأبيض": "Al-Hujayr Al-Abyad", "الكويك، محلية الريف الشرقي": "Al-Kuwayk, Al-Reef Al-Sharqi Locality", "العون الذاتي": "Self-help", "بتمويل مشترك من المنظمة والمستفيدين": "Co-funded by the organization and the beneficiaries", "عن المشروع": "About the Project", "تعاونت منظمة قمم للسلام والتنمية مع السجل المدني لتنظيم معسكر لاستخراج الرقم الوطني في قرية الحجير الأبيض. كان معظم أهالي المنطقة بلا أوراق ثبوتية، والرقم الوطني ضروري لإثبات الشخصية وللاستفادة من برامج التنمية. وتشمل مهمة المنظمة الدعوة والإشراف والمتابعة والتوعية بأهمية الرقم المدني، والإشراف على معسكرات الاستخراج في محلية الريف الشرقي التي يقارب سكانها 20 ألف نسمة من النازحين والرحل والمستوطنين.": "Gimam Organization for Peace and Development worked with the Civil Registry to organise a camp for issuing National ID Numbers in the village of Al-Hujayr Al-Abyad. Most people in the area had no identity documents, and the National ID Number is essential for proving identity and benefiting from development programmes. The organization's role includes advocacy, supervision, follow-up and raising awareness of the importance of the civil number, as well as supervising issuance camps in Al-Reef Al-Sharqi Locality, whose population of about 20,000 includes displaced people, nomads and settled residents.", "شارك أفراد المجتمع بمختلف فئاتهم في معسكر استخراج الرقم الوطني بقرية الحجير الأبيض، بدعم من القيادات المحلية، وحرص الجميع على استخراج بطاقاتهم الشخصية.": "Community members of all groups took part in the National ID Number camp in the village of Al-Hujayr Al-Abyad, with the support of local leaders, and everyone was keen to obtain their personal ID cards.", "من المعسكر": "From the Camp", "لافتة المعسكر": "The camp banner", "معسكر استخراج الرقم الوطني بالتعاون مع شرطة جنوب كردفان وقسم السجل المدني.": "The National ID Number camp, in cooperation with the South Kordofan Police and the Civil Registry Department.", "تسجيل المواطنين": "Registering citizens", "موظفو السجل المدني يسجلون بيانات الأهالي في موقع المعسكر.": "Civil Registry staff record residents' details at the camp site.", "كلمة ممثل المنظمة في الجلسة الافتتاحية": "The organization representative's speech at the opening session", "السيد الدودو يعقوب النور، ممثل منظمة قمم للسلام والتنمية. الصوت غير واضح، وملخص الكلمة أدناه.": "Mr. Al-Dudu Yaqoub Al-Nour, representative of Gimam Organization for Peace and Development. The audio is unclear; a summary of the speech is below.", "صور من المعسكر": "Photos from the Camp", "لافتة معسكر استخراج الرقم الوطني بقرية الحجير الأبيض، سبتمبر 2021، وموظفان يسجلان بجانبها": "The banner of the National ID Number camp in the village of Al-Hujayr Al-Abyad, September 2021, with two staff members registering beside it", "لافتة المعسكر: قرية الحجير الأبيض، سبتمبر 2021": "Camp banner: village of Al-Hujayr Al-Abyad, September 2021", "العمدة بعمامة وجلباب أبيضين أمام لافتة معسكر استخراج الرقم الوطني": "The Omda in a white turban and white jalabiya in front of the National ID Number camp banner", "العمدة أمام لافتة المعسكر": "The Omda in front of the camp banner", "موظف السجل المدني يأخذ بصمة مواطنة على جهاز البصمات": "A Civil Registry employee takes a woman's fingerprint on a fingerprint scanner", "أخذ بصمات المواطنين أثناء التسجيل": "Taking citizens' fingerprints during registration", "مواطن يضع يده على جهاز البصمات أمام حاسوب محمول": "A citizen places his hand on a fingerprint scanner in front of a laptop", "التسجيل بالبصمة الإلكترونية في العراء": "Electronic fingerprint registration in the open air", "رجل يقف بجانب سيارة مفتوحة الغطاء وسط الأشجار": "A man standing beside a car with its hood open among trees", "من أجواء المنطقة": "From the area", "أهالي القرية حول طاولة التسجيل وبأيديهم أوراقهم": "Villagers around the registration table holding their papers", "الأهالي حول طاولة التسجيل بأوراقهم": "Villagers around the registration table with their papers", "موظف يكتب في استمارة على طاولة والأهالي والأطفال واقفون حوله": "An employee filling in a form at a table, with villagers and children standing around him", "تدوين بيانات المواطنين في الاستمارات": "Recording citizens' details on forms", "رجلان يجهزان الاستمارات والأختام على طاولة في العراء": "Two men preparing forms and stamps on a table in the open air", "فريق التسجيل يجهز الاستمارات والأختام": "The registration team preparing forms and stamps", "أهالي يتسلمون أوراقهم أمام لافتة معسكر استخراج الرقم الوطني": "Villagers receiving their papers in front of the National ID Number camp banner", "إتمام الإجراءات أمام لافتة المعسكر": "Completing procedures in front of the camp banner", "الأهالي ينتظرون دورهم أمام طاولة التسجيل تحت الأشجار": "Villagers waiting their turn at the registration table under the trees", "الأهالي في انتظار دورهم أمام طاولة التسجيل": "Villagers waiting their turn at the registration table", "ملخص كلمة ممثل المنظمة": "Summary of the Organization Representative's Speech", "ألقى السيد الدودو يعقوب النور كلمة المنظمة في الجلسة الافتتاحية لمشروع استخراج البطاقة الشخصية والرقم الوطني لمواطني محلية الريف الشرقي بولاية جنوب كردفان (جبال النوبة). وهذا ملخص لها لأن الصوت في التسجيل غير واضح.": "Mr. Al-Dudu Yaqoub Al-Nour delivered the organization's speech at the opening session of the project to issue personal ID cards and National ID Numbers to citizens of Al-Reef Al-Sharqi Locality in South Kordofan State (Nuba Mountains). This is a summary, because the audio in the recording is unclear.", "شكر الحضور، وخاصة الإدارة الأهلية لإدراكها أهمية الأوراق الثبوتية واستنفارها المواطنين.": "He thanked those present, especially the Native Administration, for recognising the importance of identity documents and for mobilising citizens.", "شكر مواطني القرى والأرياف على تلبية الدعوة، رجالاً ونساءً وشباباً وأطفالاً، وفي حضورهم دليل على وعيهم بأهمية البطاقة الشخصية والرقم الوطني.": "He thanked citizens of the villages and rural areas for answering the call, men, women, youth and children; their presence shows their awareness of the importance of the personal ID card and the National ID Number.", "عرّف بمنظمة قمم للسلام والتنمية، وبيّن أن أنشطتها الرئيسية تقديم الخدمات الأساسية للمواطن في المدن والقرى والأرياف على حد سواء.": "He introduced Gimam Organization for Peace and Development and explained that its main activities are providing basic services to citizens in towns, villages and rural areas alike.", "شكر شرطة السجل المدني بالولاية على تحمل مشاق السفر، وفي ذلك دليل على اهتمامها بما يخص المواطن من أوراق ثبوتية وغيرها.": "He thanked the Civil Registry Police in the state for enduring the hardships of travel, which shows their concern for citizens' identity documents and other needs.", "كلمة العمدة": "The Omda's Speech", "منظمة قمم للسلام والتنمية هي أول منظمة تأتي لتقدم لنا خدمة كهذه. كان معظم المواطنين في المنطقة بلا أوراق ثبوتية ولا يعرفون أهمية الرقم الوطني، وبتنوير من المنظمة عرفنا أهميتها.": "Gimam Organization for Peace and Development is the first organization to come and provide us with a service like this. Most citizens in the area had no identity documents and did not know the importance of the National ID Number; through the organization's guidance we came to understand its importance.", "الحمد لله، أهم شيء الأوراق الثبوتية انتهينا منها، وبقي موضوع قسائم الزواج، ونريد تأهيل مأذون في المنطقة.": "Thank God, the most important thing, the identity documents, we have finished with. What remains is marriage certificates, and we want a marriage officer (ma'dhun) to be qualified in the area.", "تواصل معنا": "Contact Us", "المدير: آدم بشير سليمان": "Director: Adam Bashir Solomon", "هاتف:": "Phone:", "البريد:": "Email:"};
+const nodes=[],attrs=[];
+const w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{acceptNode:function(n){const p=n.parentNode.nodeName;return(p==='SCRIPT'||p==='STYLE')?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT}});
+let n;while((n=w.nextNode())){const t=n.data.trim();if(t&&Object.prototype.hasOwnProperty.call(EN,t)){nodes.push({n:n,ar:n.data,en:n.data.replace(t,function(){return EN[t]})})}}
+document.querySelectorAll('[alt]').forEach(function(el){const v=el.getAttribute('alt');if(EN[v])attrs.push({el:el,a:'alt',ar:v,en:EN[v]})});
+const meta=document.querySelector('meta[name=description]');
+if(meta){const v=meta.getAttribute('content');if(EN[v])attrs.push({el:meta,a:'content',ar:v,en:EN[v]})}
+const arTitle=document.title,enTitle=EN[arTitle]||arTitle;
+const btn=document.getElementById('langbtn');
+function setLang(l,save){
+  const en=l==='en';
+  document.documentElement.lang=l;document.documentElement.dir=en?'ltr':'rtl';
+  nodes.forEach(function(o){o.n.data=en?o.en:o.ar});
+  attrs.forEach(function(o){o.el.setAttribute(o.a,en?o.en:o.ar)});
+  document.title=en?enTitle:arTitle;
+  btn.textContent=en?'\u0627\u0644\u0639\u0631\u0628\u064a\u0629':'English';
+  btn.setAttribute('lang',en?'ar':'en');
+  btn.setAttribute('aria-label',en?'\u0627\u0644\u062a\u0628\u062f\u064a\u0644 \u0625\u0644\u0649 \u0627\u0644\u0646\u0633\u062e\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629':'Switch to the English version');
+  if(save){try{localStorage.setItem('qimam-lang',l)}catch(e){}}
+}
+btn.addEventListener('click',function(){setLang(document.documentElement.lang==='en'?'ar':'en',true)});
+let l='ar';
+try{const q=new URLSearchParams(location.search).get('lang');if(q==='en'||q==='ar')l=q;else l=localStorage.getItem('qimam-lang')||'ar'}catch(e){}
+if(l==='en')setLang('en',false);
+})();
+</script>
+</body>
+</html>
